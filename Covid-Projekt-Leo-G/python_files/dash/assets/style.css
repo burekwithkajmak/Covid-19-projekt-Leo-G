@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+body {
+    background-color: #455A64;
+}
+
+.cases {
+    color: orange;
+}
+
+.deaths {
+    color: red;
+}
+
+.icus {
+    color: lightskyblue;
+}
+
+.wrapper-header {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding: 1%;
+}
+
+.wrapper-info {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.wrapper-info-div {
+    background-color: #546E7A;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.wrapper-info-div-label {
+    color: white;
+    font-size: 0.9em;
+    width: 100%;
+    background-color: #78909C;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.wrapper-info-div-value {
+    font-size: 1.8em;
+    padding: 10%;
+}
+
+.wrapper-graphs {
+    display: flex;
+    padding: 2%;
+}
+
+#wrapper-graph-line {
+    display: flex;
+    padding: 2%;
+}
+
+#wrapper-graph-region {
+    width: 75%;
+}
+
+#wrapper-graph-pie {
+    width: 25%;
+}
+
+.wrapper-graph-bar {
+    width: 50%;
+}
+
+.wrapper-graph-bubble {
+    width: 50%;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #546E7A;
+}
+
+.wrapper-graphs-middle {
+    display: flex;
+    padding: 2%;
+}
+  
+
+
+
+
